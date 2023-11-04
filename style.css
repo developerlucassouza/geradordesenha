@@ -1,0 +1,27 @@
+label.form-control > input[type=checkbox] {
+    float: right;
+    height: 100%;
+}
+
+#visor {
+    border-radius: 10px 0 0 10px;
+}
+
+#gerar {
+    border-radius: 0 10px 10px 0;
+}
+
+#gerar, #copiar {
+    height: 100%;
+    width: 100%;
+}
+
+div.row.visor {
+    padding: 0px 15px;
+}
+
+div.row.visor * {
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
