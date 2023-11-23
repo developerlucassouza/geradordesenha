@@ -39,11 +39,16 @@ $(document).ready(function(){
 
 
     // Eventos
-    $('#qtd').mousemove(function(){
-        $('#qtdnum').val($(this).val());
-    });
+    // $('#qtd').mousemove(function(){
+    //     $('#qtdnum').val($(this).val());
+    // });
 
-    $('#qtd').mouseup(function(){
+    // $('#qtd').mouseup(function(){
+    //     geraSenha();
+    // });
+
+    $('#qtd').change(function() {
+        $('#qtdnum').val($(this).val());
         geraSenha();
     });
 
